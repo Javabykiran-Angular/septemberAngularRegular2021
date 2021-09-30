@@ -1,0 +1,13 @@
+
+img{
+    width: 250px;
+    height: 250px;
+
+}
+.myclass{
+    border: 3px solid red;
+}
+
+#img1{
+    border-radius: 30px;
+}
