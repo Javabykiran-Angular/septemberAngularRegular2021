@@ -1,0 +1,30 @@
+<p>event-binding1 works!</p>
+<!-- syntax=> (eventname)="CustomMethodName()" -->
+
+<!-- <button (click)="onClick()">
+    Click</button>
+<br>
+
+<img src="../../assets/bg.jpeg" (click)="onImage()"
+alt="">
+<br><br> -->
+
+<!-- <button (click)="onSend($event)"
+value="Doller Event Occur..."
+>Send</button> -->
+<!-- $event is special variable given by the angular -->
+<!-- it gives current dom element information return -->
+
+<!-- template reference variable -->
+<br><br>
+<!-- <input type="text" #inputname
+placeholder="Enter the Name..."> <br><br>
+<button (click)="onSend1(inputname)">Send Data</button>
+<hr>
+<input type="text" #inputname1
+placeholder="Enter the Name..."> <br><br>
+<button (click)="onSend2(inputname1.value)">Send Data</button>
+<br><br> -->
+<input type="text" #inputname2 (change)="onChange(inputname2)"
+placeholder="Enter the name...">
+
