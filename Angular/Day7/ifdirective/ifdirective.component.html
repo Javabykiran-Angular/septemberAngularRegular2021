@@ -1,0 +1,30 @@
+<p>ifdirective works!</p>
+
+<!-- what is mean by structural directive=>
+    u can manipulate/update/hide ur dom structure i.e  we can change ur dom structure behaviour -->
+
+    <!-- how many structural directive is present in angular -->
+
+  <!-- syntax=>  *ngIf="condition"
+            display ur data -->
+
+    <!-- <div *ngIf="rating<4">
+        <h2>Condition is true</h2>
+    </div>
+    <hr> -->
+
+    <div *ngIf="rating1<4; else elsepart">
+        <h2>Condition is true</h2>
+    </div> <br>
+    <!-- <div #elsepart>
+        <h2>Condition is false</h2>
+    </div> -->
+
+    <ng-template #elsepart>
+        <h2>Condition is false</h2>
+    </ng-template>
+
+
+
+
+
