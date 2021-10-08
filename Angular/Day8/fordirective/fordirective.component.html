@@ -1,0 +1,57 @@
+<p>fordirective works!</p>
+
+<!-- for directive is structural directive -->
+<!-- when we use *ngFor? -->
+    <!-- when u want iterate dynamically or u
+         can display data dynamically then go for *ngFor -->
+<!-- when u want use *ngfor it requires a array to iterate -->
+
+<!-- <ul>
+    <li *ngFor="let item of course">
+        {{item}}
+    </li>
+</ul>
+<hr>
+<ul>
+    <li *ngFor="let item of course;index as i">
+        {{i+1}} {{item}}
+    </li>
+</ul> <hr> -->
+
+
+<!-- <table border="1px">
+    <thead>
+        <th>ID</th>
+        <th>Name</th>
+        <th>Price</th>
+    </thead>
+    <tbody>
+        <tr *ngFor="let item of arrobj">
+            <td> {{item.id}} </td>
+            <td> {{item.name}} </td>
+            <td> {{item.price}} </td>
+        </tr>
+    </tbody>
+</table> -->
+
+<table border="1px">
+    <thead>
+        <th>ID</th>
+        <th>Name</th>
+        <th>Price</th>
+    </thead>
+    <tbody>
+        <tr *ngFor="let item of arrobj" 
+            (mouseover)="onMouserOver(item)" 
+            (mouseout)="onMouseout()"
+            [ngClass]="{
+                'highlight':selected==item.name
+            }"
+        >
+            <td> {{item.id}} </td>
+            <td> {{item.name}} </td>
+            <td> {{item.price}} </td>
+        </tr>
+    </tbody>
+</table>
+

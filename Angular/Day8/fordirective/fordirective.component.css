@@ -1,0 +1,10 @@
+ul{
+    list-style: none;
+}
+table tbody tr td{
+    padding: 8px;
+}
+
+.highlight{
+    background: blue;
+}
