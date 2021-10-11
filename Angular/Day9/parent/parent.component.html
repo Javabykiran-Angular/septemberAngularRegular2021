@@ -1,0 +1,17 @@
+<p>parent works!</p>
+
+<button (click)="onSend()">Send</button>
+<br><br>
+<input type="text" [(ngModel)]="mycolor"
+placeholder="Enter the color name"> &nbsp;&nbsp;
+<button (click)="onSubmit()">Submit</button>
+
+<hr>
+
+<!-- <app-child1 
+[ParentData]="strdata" [ParentJsonObj]="jsonObj">
+</app-child1> -->
+
+<app-child1 [ParaentNumberData]="num1" [ParentColor]="mycolor1">
+
+</app-child1>
