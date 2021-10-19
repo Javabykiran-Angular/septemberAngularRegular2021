@@ -1,0 +1,172 @@
+
+Last Lecture
+1 Services
+what is services?
+Role of Services?
+	- It is simple class
+	- It is used to write down your business logic
+	- it is used code resuability
+	- It is good for code maintainability
+	- it is used to connect ur backend(java,.net,.php,ohython django,node js+express) to your frontend (Angular)
+	- It provides isolation to component with backend Server
+	
+	export class courseservice{
+		private course:string[]=['sdf','awefa'];
+		
+		getCourse(){
+			return (this.course);
+		}
+	}
+	
+	component.ts
+	constructor(private service:courseservice){
+		// let service=new courseservice();
+		// this.mycourse=this.service.getCourse();
+	}
+	
+	app.module.ts
+	providers:[courseservice]
+
+2 DI
+how you can achieve DI?
+
+	dependancy injection
+	- with the help of constructor we can achieve DI
+
+
+	
+Today's Lecture
+1 Http Services
+	we angular inbuild module it is used for http service
+	that module is HttpClientModule
+	what is http?
+		It is stateless protocol(set of rules)
+	http has methods
+	- get
+		- to get data from backend
+	- post
+		- to create new a data => we can send data from front end to backend
+		
+		every HttpRequest/HttpRsponse
+		has 2 part
+		HttpRequest
+		 header
+			url,methods,ip,date time,content type,auth
+		 body
+			data
+				xml/json
+	HttpRsponse
+		has 2 part
+		HttpRsponse
+		 header
+			url,methods,ip,date time,content type,auth,
+			status code
+				2xx => 200 it is success code,ok
+				3xx => Redirection 300,301,302
+				4xx => error,file not found, resourse not found 400,401,402
+				5xx => Server side => 500,501,502=> server down,server temp. out of service
+		 body
+			data
+				xml/json
+			
+	
+	- delete => delete a record particular record
+	- put => it is used for update 
+	- option => (put,delete,post)
+	- trace => ip trace 
+2 How to use http services
+3 get
+4 post
+https://jsonplaceholder.typicode.com/posts => it service/api/web service
+	- it is a fake service=> post,update,delete it porcess ur request but it can't save in DB
+	server gives response to front end but it can't save in DB
+	
+	
+
+getAllempolyee => api/web
+
+http://localhost:8080/getAllempolyee
+
+
+
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
