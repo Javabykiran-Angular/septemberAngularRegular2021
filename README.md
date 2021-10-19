@@ -10,6 +10,34 @@ github.com/ sumitrao007
 
 sumitrao007.github.io
 
+
+
+
+See The Spring Boot Series
+https://www.youtube.com/watch?v=1cecOdE2ZN8&list=PLa3i9wpSPojGRBeYmmhVkl76bmqih4vGm
+
+1. https://www.youtube.com/watch?v=1cecOdE2ZN8&list=PLa3i9wpSPojGRBeYmmhVkl76bmqih4vGm&index=1
+
+2. https://www.youtube.com/watch?v=NJaZMBH1M70&list=PLa3i9wpSPojGRBeYmmhVkl76bmqih4vGm&index=2
+
+3. https://www.youtube.com/watch?v=0dudLT-fnrg&list=PLa3i9wpSPojGRBeYmmhVkl76bmqih4vGm&index=3
+
+4. https://www.youtube.com/watch?v=gl4onrUJLUw&list=PLa3i9wpSPojGRBeYmmhVkl76bmqih4vGm&index=4
+
+5. https://www.youtube.com/watch?v=XrX5Iu_Ri2k&list=PLa3i9wpSPojGRBeYmmhVkl76bmqih4vGm&index=5
+
+6. https://www.youtube.com/watch?v=UzL160N7M8g&list=PLa3i9wpSPojGRBeYmmhVkl76bmqih4vGm&index=6
+
+7. https://www.youtube.com/watch?v=RDfwnHWF_Rg&list=PLa3i9wpSPojGRBeYmmhVkl76bmqih4vGm&index=7
+
+8. https://www.youtube.com/watch?v=py3GAGVEpu4&list=PLa3i9wpSPojGRBeYmmhVkl76bmqih4vGm&index=8
+
+9. https://www.youtube.com/watch?v=qE0B6DsPTr4&list=PLa3i9wpSPojGRBeYmmhVkl76bmqih4vGm&index=9
+
+10. https://www.youtube.com/watch?v=yAldDf9lVqY&list=PLa3i9wpSPojGRBeYmmhVkl76bmqih4vGm&index=10
+
+11. https://www.youtube.com/watch?v=yOoTBBZjG_4&list=PLa3i9wpSPojGRBeYmmhVkl76bmqih4vGm&index=11
+
 See The Typescript Series
 https://youtube.com/playlist?list=PLa3i9wpSPojGA-VAC_d7P_q2l_qxqj8A7
 
@@ -59,4 +87,3 @@ https://youtube.com/playlist?list=PLa3i9wpSPojEDNTe66s5XhXPSd50XqjSv
 5 https://www.youtube.com/watch?v=cwj9QrOu1w8&list=PLa3i9wpSPojEDNTe66s5XhXPSd50XqjSv&index=5
 
 6 https://www.youtube.com/watch?v=bOYj5rdEfPM&list=PLa3i9wpSPojEDNTe66s5XhXPSd50XqjSv&index=6
-
